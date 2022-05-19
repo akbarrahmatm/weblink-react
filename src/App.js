@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Profile from "./components/Profile"
+import Links from "./components/Links"
+import "./style/linkPage.css"
+import { Container } from "react-bootstrap"
+import { Helmet } from "react-helmet";
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <Helmet>
+            <title>LinkBar | @akbarrahmatm</title>
+            <meta name="description" content="Link Application for akbarrahmatm" />
+        </Helmet>
+      <div className="bg">
+        <div className="content">
+          <Container>
+            <Profile />
+            <Links />
+          </Container>
+        </div>
+      </div>
     </div>
   );
 }

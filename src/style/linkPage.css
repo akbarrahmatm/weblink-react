@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.bg{
+    height: 100vh;
+    background:  linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.4937325271905637) 49%, rgba(0,0,0,0) 100%), url('../asset/bg.gif');
+    background-size: cover;
+    background-position: 50% 0px;
+}
+
+.profile{
+    display: block;
+    text-align: center;
+    margin: auto;
+
+}
+
+img.imgProfile {
+    width: 100px;
+    margin: 10px auto;
+}
+
+.usernameProfile{
+    margin-top: 10px;
+    font-weight: 500;
+    color: white;
+    font-size: 1.5rem;
+}
+
+span.desc{
+    font-size: 16px;
+    display: block;
+    font-weight: 400;
+}
+
+.linkDesc{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.copyright{
+    color: white;
+    margin-top: 30px;
+}
+
+
+.icon{
+
+    float: left;
+    font-size: 30px;
+}
+
+
+
+@media screen and (min-width:700px) {
+    .bg {
+        height: 100vh;
+        background:  linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.30885857761073177) 26%, rgba(0,0,0,0) 100%), url('../asset/bg.gif');
+        background-size: cover;
+        background-position: 50% 0px;
+    }
+    .content{
+        width: 40%;
+        margin: auto;
+    }
+}
