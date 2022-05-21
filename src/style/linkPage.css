@@ -62,12 +62,16 @@ span.desc{
     font-size: 30px;
 }
 
+iframe{
+    border-radius: 12px;
+}
+
 
 
 @media screen and (min-width:700px) {
     .bg {
         height: 100vh;
-        background:  linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.30885857761073177) 26%, rgba(0,0,0,0) 100%), url('../asset/bg.gif');
+        background:  linear-gradient(360deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.30885857761073177) 26%, rgba(0,0,0,0) 100vh), url('../asset/bg.gif');
         background-size: cover;
         background-position: 50% 0px;
     }

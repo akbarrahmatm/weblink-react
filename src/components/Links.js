@@ -6,7 +6,6 @@ import { faInstagram, faTwitter, faLinkedin, faGithub } from '@fortawesome/free-
 const Links = () => {
     return (
         <div>
-
             <p className="text-white text-center linkDesc">Social Media : </p>
             <div className="d-grid gap-3 links">
                 <Button href="https://instagram.com/akbarrahmatm" target="_blank" className="shadow" variant="outline-light" size="lg"><FontAwesomeIcon icon={faInstagram} /> &nbsp; Instagram</Button>
